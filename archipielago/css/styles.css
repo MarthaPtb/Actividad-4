@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap');
+
+:root{
+	/* Colores */
+	--cPrincipal:#BA3B46;
+	--cSecundario:#FF595E;
+	--cTitulos:#12355B;
+	--cEnfasis:#46B1C9;
+	--cFondo:#FFEEDB;
+
+	/* Fuentes */
+	--texto:'EB Garamond', serif;
+	--manuscrito:'Caveat', cursive;
+
+}
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: var(--cFondo);
+	font-family: var(--texto); 
+}
+
+	/*BARRA DE NAVEGACIÓN*/
+.bg-nav{
+	background-color: #000;
+}
+
+.navbar-brand img{
+	height: 4rem;
+	width: auto;
+}
+
+.nav-link img{
+	height: 2.5rem;
+	width: auto;
+	padding-right: .4rem;
+}
+
+
+	/* FOOTER */
+footer{
+	background-color: #000;
+	color: var(--cFondo);
+}
+
+
+
+
+
+
+
+
+
+
+
