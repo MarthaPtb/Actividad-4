@@ -12,6 +12,10 @@
 	--texto:'EB Garamond', serif;
 	--manuscrito:'Caveat', cursive;
 
+	/*Tamaños*/
+	--tHeader: 1.2rem;
+	--tFooter: .8rem;
+
 }
 
 *{
@@ -28,17 +32,55 @@ body{
 	/*BARRA DE NAVEGACIÓN*/
 .bg-nav{
 	background-color: #000;
+	font-size: var(--tHeader);
 }
 
 .navbar-brand img{
-	height: 4rem;
+	height: 3.2rem;
 	width: auto;
 }
 
+.nav-link{
+	color: var(--cFondo) !important;
+	transition: all 0.4s ease-out;
+}
+
+.nav-link:hover{
+	color: var(--cSecundario) !important;
+}
+
 .nav-link img{
-	height: 2.5rem;
+	height: 2rem;
 	width: auto;
 	padding-right: .4rem;
+}
+
+#activo{
+	color: var(--cSecundario) !important;
+}
+
+#activo:hover{
+	color: var(--cPrincipal) !important;
+}
+
+#pag1:hover{
+	background-color: var(--cFondo);
+	color: var(--cEnfasis) !important;
+}
+
+.dropdown-item{
+	color: var(--cFondo) !important;
+	transition: all 0.4s ease-out;
+	font-size: 1.2rem;
+}
+
+.dropdown-item:hover{
+	background-color: var(--cFondo);
+	color: var(--cSecundario) !important;
+}
+
+.dropdown-menu{
+	background-color: #000;
 }
 
 
@@ -48,6 +90,54 @@ footer{
 	color: var(--cFondo);
 }
 
+footer ul{
+	padding-top: .4rem;
+}
+
+footer p{
+	font-size: var(--tFooter);
+}
+
+footer ul img{
+	height: 1.5rem;
+	width: auto;
+	padding: 0 2rem;
+}
+
+.fa-facebook-square, 
+.fa-twitter-square,
+.fa-instagram{
+	color: var(--cFondo);
+	padding: 0 2rem;
+}
+
+.fa-facebook-square:hover, 
+.fa-twitter-square:hover,
+.fa-instagram:hover{
+	color: var(--cEnfasis);
+	transition: all 0.4s ease-out;
+}
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px){
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px){
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px){
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px){
+
+}
 
 
 
